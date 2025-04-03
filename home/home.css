@@ -1,5 +1,5 @@
 header {
-    background-color: #595959;
+    background-color: #333;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
@@ -16,23 +16,34 @@ body {
 h1 {
     margin-top: 0px;
     padding-top: 25px;
-    font-size: 40pt;
+    font-size: 45pt;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
+    overflow: hidden;
 }
-li a {
+li .a1 {
     display: block;
-    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
-li a:hover {
-    background-color: #555;
+li .a1:hover {
+    background-color: #505050;
     color: white;
 }
 li {
-    float: left;
-    display: inline;
+    float: right;
+}
+.a1 {
+    display: block;
+    padding: 8px;
+    background-color: #333;
+    font-size: 14pt;
+}
+#headerlink {
+    text-decoration: none;
+    
 }
