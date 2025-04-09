@@ -31,8 +31,9 @@ li .a1 {
     color: white;
 }
 li .a1:hover {
-    background-color: #505050;
+    background-color: #145c14;
     color: white;
+    image-rendering: initial;
 }
 li {
     float: right;
@@ -43,7 +44,15 @@ li {
     background-color: #333;
     font-size: 14pt;
 }
-#headerlink {
+h1 #headerlink{
     text-decoration: none;
-    
+    color: white;
+}
+.icons {
+    width: 40px;
+    height: 40px;
+}
+.icons2 {
+    width: 60px;
+    height: 60px;
 }
