@@ -62,6 +62,8 @@ h1 #headerlink{
     margin: auto;
     font-size: 16pt;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
 }
 #verde{
     background-color: #209220;
@@ -69,4 +71,7 @@ h1 #headerlink{
 #verde:hover{
     background-color: #145c14;
 }
-
+#caw {
+    margin: auto;
+    width: 100%;
+}
