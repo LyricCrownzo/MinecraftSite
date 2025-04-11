@@ -56,3 +56,10 @@ h1 #headerlink{
     width: 60px;
     height: 60px;
 }
+#articolo{
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    font-size: 16pt;
+    color: white;
+}
