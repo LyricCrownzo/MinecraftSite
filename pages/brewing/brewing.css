@@ -89,6 +89,25 @@ h1 #headerlink{
     height: 45%;
 }
 #brewingguide{
-    width: 75%;
-    height: 75%;
+    width: 90%;
+    height: 90%;
+}
+
+table{
+    border-collapse: collapse;
+    border: 5px solid white;
+    margin: 10px;
+    background-color: #209220;
+    text-align: center;
+}
+#titoli{
+    background-color: #333;
+}
+td{
+    height: 100px;
+    width: auto;
+    border: 5px solid white;
+  }
+tr:hover{
+    background-color: #145c14;
 }
