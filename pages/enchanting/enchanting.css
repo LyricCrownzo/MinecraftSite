@@ -72,3 +72,14 @@ h1 #headerlink{
     background-color: #145c14;
 }
 
+table{
+    border-collapse: collapse;
+    margin:10px;
+    text-align: center;
+    font-size: 11;
+}
+
+td{
+    height: 100px;
+    width: auto;
+}
