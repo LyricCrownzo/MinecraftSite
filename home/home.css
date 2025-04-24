@@ -18,7 +18,7 @@ h1 {
     padding-top: 25px;
     font-size: 45pt;
 }
-ul {
+.ul0 {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -77,4 +77,5 @@ h1 #headerlink{
 }
 .li1 {
     text-align: left;
+
 }
