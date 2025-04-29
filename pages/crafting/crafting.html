@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 
-<html style="background-image: url('dirt.jpg')">
+<html style="background-image: url('dirt.png')">
     <head>
         <style>
             
-            .immagini img {
-                display: block;        
-                margin: 40px;     
-                width: 350px;          
-                height: auto;      
-                padding-left: 200px; 
+           
+                
+            .immagini {
+                display: flex;
+                flex-direction: column;   
+                align-items: center;      
+                gap: 20px;                
             }
+
+    
+    .immagini img {
+      width: 400px;             
+      height: auto; }            
         
             p {
-                font-family: Arial, sans-serif;  
+                font-family: Arial, Arial, Helvetica, sans-serif;  
                 text-align: left;                
                 margin-left: 20px;
                 padding-left: 20px;
                 padding-bottom: 40px;
             }   
+
+            
         
         </style>
             
@@ -50,8 +58,8 @@
         
         <div class="immagini">
             
-            <img src="imG/2.png" alt=""><img src="imG/4.png" alt="">
-            
+            <img src="imG/2.png" alt="">
+            <img src="imG/4.png" alt="">
             <img src="imG/3.png" alt="">
             <img src="imG/1.png" alt="">
             <img src="imG/5.png" alt="">
@@ -65,15 +73,17 @@
             <img src="imG/14.png" alt="">
             <img src="imG/15.png" alt="">
             <img src="imG/16.png" alt="">
-            <img src="imG/13.png" alt="">
-            <img src="imG/12.png" alt="">
             <img src="imG/17.png" alt="">
-            <img src="imG/18.png" alt="">
+            <img src="imG/12.png" alt="">
             <img src="imG/19.png" alt="">
+            <img src="imG/18.png" alt="">
             <img src="imG/20.png" alt="">
            
         </div>
-        <p style="font-size: 18px;">Le ricette di questa pagina utilizzano il diamante come materiale principale, ma nel gioco è possibile realizzare gli utensili anche con altri materiali, come legno, ferro, oro e netherite. Tutti questi materiali, ad eccezione della netherite, sono meno resistenti: gli strumenti ottenuti da essi sono meno efficaci e si usurano più rapidamente rispetto a quelli in diamante. Le armature, invece, possono essere costruite con pelle, ferro, oro, diamante e netherite, ma non con il legno, che non è un materiale utilizzabile per la creazione di armature.</p>
-
+            
+        <div>
+            <p style="font-size: 18px;">Le ricette di questa pagina utilizzano il diamante come materiale principale, ma nel gioco è possibile realizzare gli utensili anche con altri materiali, come legno, ferro, oro e netherite. Tutti questi materiali, ad eccezione della netherite, sono meno resistenti: gli strumenti ottenuti da essi sono meno efficaci e si usurano più rapidamente rispetto a quelli in diamante. Le armature, invece, possono essere costruite con pelle, ferro, oro, diamante e netherite, ma non con il legno, che non è un materiale utilizzabile per la creazione di armature.</p>
+        </div>
     </body>
     </html>
+
