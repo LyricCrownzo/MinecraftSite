@@ -7,7 +7,7 @@ header {
     margin: 0px;
 }
 body {
-    background-image: url('dirt.jpg');
+    background-image: url('dirt.png');
     background-attachment: fixed;
     margin: 0px;
     padding: 0px;
@@ -68,5 +68,9 @@ h1 #headerlink{
 }
 #verde:hover{
     background-color: #145c14;
+}
+
+p{
+    color: white;
 }
 
